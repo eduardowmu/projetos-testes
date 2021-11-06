@@ -1,7 +1,4 @@
 package configuration.basic.world;
-
-public interface WorldService {
-
-	String getWorld();
-
-}
+/*Supondo que este serviço demore muito para ser iniciado*/
+public interface WorldService 
+{String getWorld();}

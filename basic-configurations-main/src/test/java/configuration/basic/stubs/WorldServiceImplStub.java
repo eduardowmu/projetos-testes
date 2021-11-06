@@ -7,11 +7,7 @@ import configuration.basic.world.WorldService;
 
 @TestConfiguration
 @Primary
-public class WorldServiceImplStub implements WorldService {
-
-	@Override
-	public String getWorld() {
-		return "Stub";
-	}
-
+public class WorldServiceImplStub implements WorldService 
+{	@Override
+	public String getWorld() {return "Stub";}
 }
