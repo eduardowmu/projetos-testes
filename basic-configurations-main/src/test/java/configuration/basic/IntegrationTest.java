@@ -10,16 +10,17 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @ExtendWith(SpringExtension.class)
-@RunWith(SpringRunner.class)
-@SpringBootTest
+/*@RunWith(SpringRunner.class)
+ *Essa notação foi depreciada pela notação acima*/
+/*@SpringBootTest
+ *Já esta notação foi depreciada para notação
+ *abaixo*/
 /*Iniciando o contexto de testes do spring*/
 @ContextConfiguration(classes = {TextService.class})
-class IntegrationTest {
-
-	@Autowired
+class IntegrationTest 
+{	@Autowired
 	private TextService textService;
 
 	@Test
 	void test() {textService.someMethod();}
-
 }

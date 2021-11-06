@@ -1,15 +1,10 @@
 package configuration.basic.config;
 
-public class EnvironmentConfig {
+public class EnvironmentConfig 
+{	private String somePhrase;
 
-	private String somePhrase;
+	public EnvironmentConfig(String somePhrase) 
+	{this.somePhrase = somePhrase;}
 
-	public EnvironmentConfig(String somePhrase) {
-		this.somePhrase = somePhrase;
-	}
-
-	public void someMethod() {
-		System.out.println(somePhrase);
-	}
-
+	public void someMethod() {System.out.println(somePhrase);}
 }
