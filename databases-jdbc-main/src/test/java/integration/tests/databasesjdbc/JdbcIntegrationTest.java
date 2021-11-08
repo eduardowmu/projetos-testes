@@ -36,7 +36,12 @@ class JdbcIntegrationTest {
 	@Sql(statements = "insert into product (id,name,price) values(2,'Mouse',15)")
 	public void returnProductsSortByPriceAscendent() {
 		List<Product> products = productRepository.findAllOrderedByPriceAsc();
-		Assertions.assertThat(products).extracting(Product::getName).containsExactly("Mouse", "Scanner");
+		
+		Assertions.assertThat(products)
+			/*Isso funciona como um looping de uma lista, no caso, uma varredura
+			 *de nomes de produtos da lista*/
+			.extracting(Product::getName)
+			/*Este método verifica se existe estes elementos, nesta órdem.*/
+			.containsExactly("Mouse", "Scanner");
 	}
-
 }

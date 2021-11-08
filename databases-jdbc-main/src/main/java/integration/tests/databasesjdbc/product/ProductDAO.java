@@ -12,8 +12,10 @@ public class ProductDAO {
 		this.jdbcTemplate = jdbcTemplate;
 	}
 
-	public Product findById(Integer id) {
-		return jdbcTemplate.queryForObject("SELECT id, name, price FROM product WHERE id = ?", new ProductRowMapper(), id);
+	public Product findById(Integer id) 
+	{	return jdbcTemplate.queryForObject(
+			"SELECT id, name, price FROM product WHERE id = ?", 
+			new ProductRowMapper(), id);
 	}
 
 	public void deleteById(Integer id) {
