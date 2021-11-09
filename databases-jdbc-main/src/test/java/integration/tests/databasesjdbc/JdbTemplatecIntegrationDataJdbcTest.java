@@ -11,7 +11,11 @@ import org.springframework.test.context.jdbc.Sql;
 import integration.tests.databasesjdbc.product.Product;
 import integration.tests.databasesjdbc.product.ProductDAO;
 import integration.tests.databasesjdbc.product.ProductRowMapper;
-
+/*Esta notação envolve os testes em uma transação, e vai configurar um
+ *banco de dados em memória para ser usado nos testes. Da mesmo forma que
+ *o JPATest podemos usar a notação @AutoConfigureTestDatabase para mudar o
+ *banco de dados a ser usado nos testes. As notações sobre transações vai
+ *alterar a propagação e o isolamento das transações*/
 @DataJdbcTest
 class JdbTemplatecIntegrationDataJdbcTest {
 
