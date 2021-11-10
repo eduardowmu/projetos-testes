@@ -15,14 +15,13 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 @Configuration
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
-public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
-
-	@Autowired
+public class SpringSecurityConfig extends WebSecurityConfigurerAdapter 
+{	@Autowired
 	private UserDetailsService customUserDetailsService;
 
 	@Override
-	protected void configure(HttpSecurity http) throws Exception {
-		http
+	protected void configure(HttpSecurity http) throws Exception 
+	{	http
 		.csrf().disable()
 		.authorizeRequests()
 		.antMatchers("/", "/css/**", "/login*").permitAll()
@@ -38,18 +37,12 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 		.logoutSuccessUrl("/")
 		.deleteCookies("JSESSIONID")
 		;
-
 	}
 
 	@Override
-	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-		auth.userDetailsService(customUserDetailsService);
-	}
+	protected void configure(AuthenticationManagerBuilder auth) throws Exception 
+	{auth.userDetailsService(customUserDetailsService);}
 
 	@Bean
-	public PasswordEncoder passwordEncoder() {
-		return new BCryptPasswordEncoder();
-	}
-
-
+	public PasswordEncoder passwordEncoder() {return new BCryptPasswordEncoder();}
 }

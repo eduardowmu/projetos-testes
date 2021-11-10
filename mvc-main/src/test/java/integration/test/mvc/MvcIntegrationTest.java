@@ -27,14 +27,14 @@ import integration.test.mvc.cadidate.Candidate;
 
 @SpringBootTest
 @AutoConfigureMockMvc
-class MvcIntegrationTest {
-
-	@Autowired
+class MvcIntegrationTest 
+{	@Autowired
 	private MockMvc mockMvc;
 
 	@Test
-	public void givenAnonymousUserAccessMainPageWithoutCandidates() throws Exception {
-		mockMvc.perform(get("/"))
+	public void givenAnonymousUserAccessMainPageWithoutCandidates() throws Exception 
+	{	mockMvc.perform(get("/"))
+		/*O andExpect() faz verificações no response obtido.*/
 		.andExpect(content().string(containsString("<h2>No candidates yet!</h2>")))
 		.andExpect(content().contentType("text/html;charset=UTF-8"))
 		.andExpect(content().encoding("UTF-8"))
@@ -48,8 +48,8 @@ class MvcIntegrationTest {
 	@Sql(statements = "INSERT INTO candidate (id, name, score) VALUES (1, 'Mark', 5)")
 	@Sql(statements = "INSERT INTO candidate (id, name, score) VALUES (2, 'Bolt', 5)")
 	@Sql(statements = "DELETE FROM candidate", executionPhase = ExecutionPhase.AFTER_TEST_METHOD)
-	public void givenAnonymousUserAccessMainPageWithCandidates() throws Exception {
-		Candidate mark = new Candidate(1, "Mark", 5);
+	public void givenAnonymousUserAccessMainPageWithCandidates() throws Exception 
+	{	Candidate mark = new Candidate(1, "Mark", 5);
 
 		mockMvc.perform(get("/"))
 		.andExpect(model().attribute("candidates", hasSize(2)))
@@ -62,5 +62,4 @@ class MvcIntegrationTest {
 		.andExpect(view().name("index"))
 		.andExpect(status().isOk());
 	}
-
 }

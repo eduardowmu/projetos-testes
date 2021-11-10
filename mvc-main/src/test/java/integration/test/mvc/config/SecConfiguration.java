@@ -11,20 +11,13 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 
 @TestConfiguration
-public class SecConfiguration {
-
-	@Bean
+public class SecConfiguration 
+{	@Bean
 	@Primary
-	public UserDetailsService userDetailService() {
-
-		User user = new User(
-				"seth",
-				"password",
+	public UserDetailsService userDetailService() 
+	{	User user = new User("seth", "password",
 				Collections.singletonList(
-						new SimpleGrantedAuthority("ROLE_ADMIN")
-						)
-				);
+					new SimpleGrantedAuthority("ROLE_ADMIN")));
 		return new InMemoryUserDetailsManager(user);
 	}
-
 }
