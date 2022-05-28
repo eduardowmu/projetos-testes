@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Facebook tags Suites" parallel="false">
+  <test name="Home Page Test">
+    <classes>
+      <class name="br.edu.dudu.selenium.ATagTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Home Login Test">
+    <classes>
+      <class name="br.edu.dudu.selenium.LoginPresentTestNG"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

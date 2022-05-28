@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Facebook tags Suites" duration-ms="96882" started-at="2019-06-22T04:13:26Z" finished-at="2019-06-22T04:15:03Z">
+    <groups>
+    </groups>
+    <test name="Home Page Test" duration-ms="73209" started-at="2019-06-22T04:13:26Z" finished-at="2019-06-22T04:14:39Z">
+      <class name="br.edu.dudu.selenium.ATagTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:br.edu.dudu.selenium.ATagTest@523884b2]" name="setUp" is-config="true" duration-ms="38442" started-at="2019-06-22T04:13:26Z" finished-at="2019-06-22T04:14:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginElementsPresentTest()[pri:0, instance:br.edu.dudu.selenium.ATagTest@523884b2]" name="loginElementsPresentTest" duration-ms="32512" started-at="2019-06-22T04:14:04Z" finished-at="2019-06-22T04:14:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginElementsPresentTest -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:br.edu.dudu.selenium.ATagTest@523884b2]" name="finish" is-config="true" duration-ms="2218" started-at="2019-06-22T04:14:37Z" finished-at="2019-06-22T04:14:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- br.edu.dudu.selenium.ATagTest -->
+    </test> <!-- Home Page Test -->
+    <test name="Home Login Test" duration-ms="23539" started-at="2019-06-22T04:14:39Z" finished-at="2019-06-22T04:15:03Z">
+      <class name="br.edu.dudu.selenium.LoginPresentTestNG">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:br.edu.dudu.selenium.LoginPresentTestNG@4667ae56]" name="setUp" is-config="true" duration-ms="13412" started-at="2019-06-22T04:14:39Z" finished-at="2019-06-22T04:14:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginElementsPresentTest()[pri:0, instance:br.edu.dudu.selenium.LoginPresentTestNG@4667ae56]" name="loginElementsPresentTest" duration-ms="4522" started-at="2019-06-22T04:14:52Z" finished-at="2019-06-22T04:14:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginElementsPresentTest -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:br.edu.dudu.selenium.LoginPresentTestNG@4667ae56]" name="finish" is-config="true" duration-ms="5596" started-at="2019-06-22T04:14:57Z" finished-at="2019-06-22T04:15:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- br.edu.dudu.selenium.LoginPresentTestNG -->
+    </test> <!-- Home Login Test -->
+  </suite> <!-- Facebook tags Suites -->
+</testng-results>

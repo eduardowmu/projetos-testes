@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Facebook tags Suites]">
+  <test thread-count="5" name="Home Page Test(failed)">
+    <classes>
+      <class name="br.edu.dudu.selenium.LoginPresentTestNG">
+        <methods>
+          <include name="finish"/>
+          <include name="setUp"/>
+          <include name="loginElementsPresentTest"/>
+        </methods>
+      </class> <!-- br.edu.dudu.selenium.LoginPresentTestNG -->
+      <class name="br.edu.dudu.selenium.ATagTest">
+        <methods>
+          <include name="loginElementsPresentTest"/>
+          <include name="finish"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- br.edu.dudu.selenium.ATagTest -->
+    </classes>
+  </test> <!-- Home Page Test(failed) -->
+</suite> <!-- Failed suite [Facebook tags Suites] -->
