@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="H:/Dados/MEU PC/Meusdoc/UDEMY/Testes com springboot/repository/projetos-testes/JavaSeleniumProject/libs/byte-buddy-1.8.15.jar"/>
+	<classpathentry exported="true" kind="lib" path="H:/Dados/MEU PC/Meusdoc/UDEMY/Testes com springboot/repository/projetos-testes/JavaSeleniumProject/libs/checker-compat-qual-2.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="H:/Dados/MEU PC/Meusdoc/UDEMY/Testes com springboot/repository/projetos-testes/JavaSeleniumProject/libs/client-java-4.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="H:/Dados/MEU PC/Meusdoc/UDEMY/Testes com springboot/repository/projetos-testes/JavaSeleniumProject/libs/client-java-4.0.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="H:/Dados/MEU PC/Meusdoc/UDEMY/Testes com springboot/repository/projetos-testes/JavaSeleniumProject/libs/commons-codec-1.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="H:/Dados/MEU PC/Meusdoc/UDEMY/Testes com springboot/repository/projetos-testes/JavaSeleniumProject/libs/commons-exec-1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="H:/Dados/MEU PC/Meusdoc/UDEMY/Testes com springboot/repository/projetos-testes/JavaSeleniumProject/libs/error_prone_annotations-2.1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="H:/Dados/MEU PC/Meusdoc/UDEMY/Testes com springboot/repository/projetos-testes/JavaSeleniumProject/libs/guava-25.0-jre.jar"/>
+	<classpathentry exported="true" kind="lib" path="H:/Dados/MEU PC/Meusdoc/UDEMY/Testes com springboot/repository/projetos-testes/JavaSeleniumProject/libs/httpclient-4.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="H:/Dados/MEU PC/Meusdoc/UDEMY/Testes com springboot/repository/projetos-testes/JavaSeleniumProject/libs/httpcore-4.4.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="H:/Dados/MEU PC/Meusdoc/UDEMY/Testes com springboot/repository/projetos-testes/JavaSeleniumProject/libs/j2objc-annotations-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="H:/Dados/MEU PC/Meusdoc/UDEMY/Testes com springboot/repository/projetos-testes/JavaSeleniumProject/libs/jsr305-1.3.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="H:/Dados/MEU PC/Meusdoc/UDEMY/Testes com springboot/repository/projetos-testes/JavaSeleniumProject/libs/okhttp-3.11.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="H:/Dados/MEU PC/Meusdoc/UDEMY/Testes com springboot/repository/projetos-testes/JavaSeleniumProject/libs/okio-1.14.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="H:/Dados/MEU PC/Meusdoc/UDEMY/Testes com springboot/repository/projetos-testes/JavaSeleniumProject/libs/poi-3.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="H:/Dados/MEU PC/Meusdoc/UDEMY/Testes com springboot/repository/projetos-testes/JavaSeleniumProject/libs/selenium-api-3.14.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="H:/Dados/MEU PC/Meusdoc/UDEMY/Testes com springboot/repository/projetos-testes/JavaSeleniumProject/libs/selenium-chrome-driver-3.14.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="H:/Dados/MEU PC/Meusdoc/UDEMY/Testes com springboot/repository/projetos-testes/JavaSeleniumProject/libs/selenium-java-3.14.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="H:/Dados/MEU PC/Meusdoc/UDEMY/Testes com springboot/repository/projetos-testes/JavaSeleniumProject/libs/selenium-server-standalone-3.5.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="H:/Dados/MEU PC/Meusdoc/UDEMY/Testes com springboot/repository/projetos-testes/JavaSeleniumProject/libs/selenium-support-3.14.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
