@@ -17,7 +17,7 @@ public class DataReader
 	//irá buscar a localização do arquivo de massa e fazer a
 	//leitura do arquivo
 	public static void readCSV()//lista de dados
-	{	List<String[]> datas = CSV.get("C:\\webdrivers\\UsersList.csv");
+	{	List<String[]> datas = CSV.get("..\\files\\UsersAccount.csv");
 		//looping por todas as linhas de dados do arquivo
 		String msg = "";
 		for(String[] data : datas)
@@ -30,7 +30,7 @@ public class DataReader
 	//mesma função acima mas de outro formato
 	public static void readXLS()
 	{	//neste formato, precisa ser uma matriz de String
-		String[][] datas = Excel.get("C:\\webdrivers\\UserLogin.xls");
+		String[][] datas = Excel.get("..\\files\\UserLogin.xls");
 		String msg = "";
 		//talvez seja melhor pegar uma versão mais recente ou atrasada
 		for(String[] data:datas)
