@@ -9,6 +9,8 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+
 import br.edu.test.driver.DriverFactory;
 
 //classe que abre a página e que preenche os
@@ -16,6 +18,7 @@ import br.edu.test.driver.DriverFactory;
 public class LoginPresentTestNG 
 {	WebDriver driver;
 	WebElement loginID, passWord; //variáveis da classe
+	
 	@Test public void loginElementsPresentTest()
 	{	loginID.sendKeys("duduedu_bom@hotmail.com");
 		passWord.sendKeys("@(()$%*");	//preencha com a senha
