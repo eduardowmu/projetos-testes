@@ -18,7 +18,7 @@ public class AppTest
      */
     @Test
     public void shouldAnswerWithTrue() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Windows\\driver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "file\\chromedriver.exe");
         System.setProperty("webdriver.http.factory", "jdk-http-client");
         ChromeDriver driver = new ChromeDriver();
         driver.get("https://google.com");
